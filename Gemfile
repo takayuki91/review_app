@@ -5,6 +5,8 @@ ruby '3.1.2'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
 gem 'rails', '~> 6.1.7', '>= 6.1.7.3'
+# セキュアなパスワード
+gem 'bcrypt',         '3.1.13'
 # 必要なBootstrapファイルを現在のアプリケーションですべて利用できるように
 gem 'bootstrap-sass', '3.4.1'
 # test:integrationのため
